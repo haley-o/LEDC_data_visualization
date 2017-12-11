@@ -8,7 +8,9 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
 	<!-- using D3 V3 -->
-	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<!-- <script src="https://d3js.org/d3.v3.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
 
 
 
@@ -34,11 +36,22 @@
 	</div>
 </div>
 
-<div id="chart"></div>
-<div id="chartThree"></div>
+<h1 id="title">LEDC Statistics</h1>
+
+<h1 class="chartTitle">Bar Chart Title</h1>
+<h1 class="chartTitle">Pie Chart Title</h1>
+<h1 class="chartTitle">Area Chart Title</h1>
+<h1 class="chartTitle">Test Chart Title</h1>
+	
+<canvas id="barChart"></canvas>
+<canvas id="pieChart"></canvas>
+<canvas id="areaChart"></canvas>
+<canvas id="testChart"></canvas>
 
 
-<script src="js/graph1.js"></script>
+<script src="js/Chart.bundle.js"></script>
+<script src="js/moment.js"></script>
+
 
 </body>
 </html>
