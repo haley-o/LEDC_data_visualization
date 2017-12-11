@@ -201,7 +201,6 @@ options: {
       borderWidth: 15
     }
 },
-        },
         legend: {
             display: false
          },
